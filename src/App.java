@@ -78,7 +78,7 @@ public class App extends Application {
         Button btInsert = new Button();
 
         // Load the image
-        Image imageInsert = new Image("file:/c:/Users/Lenovo/Desktop/COMP242/Icons/Insert.png");
+        Image imageInsert = new Image(getClass().getResource("/Icons/Insert.png").toExternalForm());
 
         // Create an ImageView
         ImageView imageViewInsert = new ImageView(imageInsert);
@@ -91,7 +91,7 @@ public class App extends Application {
         Button btDelete = new Button();
 
         // Load the image
-        Image imageDelete = new Image("file:/c:/Users/Lenovo/Desktop/COMP242/Icons/Delete.png");
+        Image imageDelete = new Image(getClass().getResource("/Icons/Delete.png").toExternalForm());
 
         // Create an ImageView
         ImageView imageViewDelete = new ImageView(imageDelete);
@@ -104,7 +104,7 @@ public class App extends Application {
         Button btSearch = new Button(); // Search by book ID or Title
 
         // Load the image
-        Image imageSearch = new Image("file:/c:/Users/Lenovo/Desktop/COMP242/Icons/Search.png");
+        Image imageSearch = new Image("/Icons/Search.png");
 
         // Create an ImageView
         ImageView imageViewSearch = new ImageView(imageSearch);
@@ -117,7 +117,7 @@ public class App extends Application {
         Button btDisplay = new Button();
 
         // Load the image
-        Image imageDisplay = new Image("file:/c:/Users/Lenovo/Desktop/COMP242/Icons/Statistics.png");
+        Image imageDisplay = new Image("Icons/Statistics.png");
 
         // Create an ImageView
         ImageView imageViewDisplay = new ImageView(imageDisplay);
@@ -151,7 +151,7 @@ public class App extends Application {
         btSave.setOnAction(e -> saveBooks(stage));
 
         // Load the image
-        Image imageSave = new Image("file:/c:/Users/Lenovo/Desktop/COMP242/Icons/Save.png");
+        Image imageSave = new Image("/Icons/Save.png");
 
         // Create an ImageView
         ImageView imageViewSave = new ImageView(imageSave);
@@ -165,7 +165,7 @@ public class App extends Application {
         btLoad.setOnAction(e -> readBooks(stage));
 
         // Load the image
-        Image imageLoad = new Image("file:/c:/Users/Lenovo/Desktop/COMP242/Icons/Load.png");
+        Image imageLoad = new Image("/Icons/Load.png");
 
         // Create an ImageView
         ImageView imageViewLoad = new ImageView(imageLoad);
