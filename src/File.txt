@@ -1,0 +1,30 @@
+001, Java Programming Basics, John Doe, Java, 2020, 123-4567890123
+002, Advanced Security Concepts, Jane Smith, Security, 2021, 987-6543210987
+003, Learn Java in 24 Hours, Alice Johnson, Java, 2019, 345-6789012345
+004, Ethical Hacking for All, Bob Brown, Security, 2022, 876-5432109876
+005, Mastering Java, John Doe, Java, 2021, 234-5678901234
+006, Cybersecurity Essentials, Jane Smith, Security, 2020, 765-4321098765
+007, Java for Beginners, Alice Johnson, Java, 2022, 456-7890123456
+008, The Art of Hacking, Bob Brown, Security, 2021, 654-3210987654
+009, Advanced Java Techniques, John Doe, Java, 2023, 567-8901234567
+010, Penetration Testing Guide, Bob Brown, Security, 2020, 432-1098765432
+011, Data Structures with Java, Alice Johnson, Java, 2021, 678-9012345678
+012, Network Security Principles, Jane Smith, Security, 2019, 890-1234567890
+013, Java Design Patterns, John Doe, Java, 2018, 789-0123456789
+014, Web Security Fundamentals, Bob Brown, Security, 2023, 321-0987654321
+015, Java Multithreading, Alice Johnson, Java, 2020, 567-2345678901
+016, Cryptography Essentials, Jane Smith, Security, 2022, 987-3456789012
+017, Java GUI Development, John Doe, Java, 2019, 123-8901234567
+018, Ethical Hacking Techniques, Bob Brown, Security, 2018, 876-6789012345
+019, Java and Databases, Alice Johnson, Java, 2023, 234-4567890123
+020, Secure Coding Practices, Jane Smith, Security, 2020, 654-7890123456
+021, Java Web Development, John Doe, Java, 2022, 345-5678901234
+022, Wireless Security Guide, Bob Brown, Security, 2019, 987-8901234567
+023, Java Game Development, Alice Johnson, Java, 2018, 789-3456789012
+024, Advanced Cryptography, Jane Smith, Security, 2021, 432-5678901234
+025, Functional Java, John Doe, Java, 2020, 567-6789012345
+026, IoT Security Handbook, Bob Brown, Security, 2022, 210-3456789012
+027, Java Microservices, Alice Johnson, Java, 2021, 876-8901234567
+028, Security Risk Management, Jane Smith, Security, 2023, 987-2345678901
+029, Java Performance Optimization, John Doe, Java, 2023, 345-7890123456
+030, Cyber Forensics Essentials, Bob Brown, Security, 2020, 654-9012345678
