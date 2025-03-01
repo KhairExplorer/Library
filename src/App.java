@@ -76,6 +76,7 @@ public class App extends Application {
         lblOutput.getStyleClass().add("bold-label");
 
         Button btInsert = new Button();
+        btInsert.setOnAction(e -> showInsertInterface());
 
         // Load the image
         Image imageInsert = new Image(getClass().getResource("/Icons/Insert.png").toExternalForm());
@@ -183,20 +184,6 @@ public class App extends Application {
             cbSearch.getSelectionModel().clearSelection();
             tfFilterSearch.clear();
             lblOutput.setText("");
-        });
-
-        btInsert.setOnAction(e -> {
-
-            if (bookData.size() >= 30) {
-                Alert alert = new Alert(AlertType.WARNING);
-                alert.setTitle("Warning");
-                alert.setHeaderText(null);
-                alert.setContentText("Only 30 books can be loaded.");
-                alert.showAndWait();
-                return;
-            }
-
-            showInsertInterface();
         });
 
         btDelete.setOnAction(e -> {
@@ -376,7 +363,23 @@ public class App extends Application {
                         lblOutput.setText("Book with the same ISBN already exists.");
                         return;
                     }
+                }
 
+                if (publishedYear > 2025 && !isbn.matches("\\d{3}-\\d{10}")) {
+                    lblOutput.setText(
+                            "Published year cannot be greater than 2025, and ISBN must be in the format 3int-10int.");
+                    return;
+                }
+
+                if (publishedYear > 2025) {
+                    lblOutput.setText("Published year cannot be greater than 2025.");
+                    return;
+                }
+
+                // Check if the ISBN is in the correct format
+                if (!isbn.matches("\\d{3}-\\d{10}")) {
+                    lblOutput.setText("Invalid ISBN format. Please enter in the format 3int-10int.");
+                    return;
                 }
 
                 Book book = new Book(bookId, title, author, category, publishedYear, isbn);
@@ -580,9 +583,6 @@ public class App extends Application {
                     return;
                 }
                 while (input.hasNext()) {
-                    if (bookData.size() >= 30) {
-                        break;
-                    }
                     String line = input.nextLine();
                     String[] parts = line.split(",");
 
@@ -635,8 +635,9 @@ public class App extends Application {
         if (file != null) {
             try (PrintWriter output = new PrintWriter(file)) {
                 for (Book book : bookData) {
-                    output.println(book.getBookId() + "," + book.getTitle() + "," + book.getAuthor() + ","
-                            + book.getCategory() + "," + book.getPublishedYear() + "," + book.getIsbn());
+                    output.println(String.format("%03d", book.getBookId()) + "," + book.getTitle() + ","
+                            + book.getAuthor() + "," + book.getCategory() + "," + book.getPublishedYear() + ","
+                            + book.getIsbn());
                 }
                 lblOutput.setText("File has been saved successfully");
             } catch (FileNotFoundException ex) {
