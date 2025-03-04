@@ -28,3 +28,23 @@
 028, Security Risk Management, Jane Smith, Security, 2023, 987-2345678901
 029, Java Performance Optimization, John Doe, Java, 2023, 345-7890123456
 030, Cyber Forensics Essentials, Bob Brown, Security, 2020, 654-9012345678
+031, Cloud Security Fundamentals, Jane Smith, Security, 2022, 765-6789012345
+032, Java Data Science, Alice Johnson, Java, 2023, 890-4567890123
+033, Ethical AI Security, Bob Brown, Security, 2021, 234-9012345678
+034, Spring Boot in Action, John Doe, Java, 2022, 567-1234567890
+035, Advanced Malware Analysis, Jane Smith, Security, 2020, 789-2345678901
+036, Java Concurrency in Practice, Alice Johnson, Java, 2019, 345-6789012345
+037, Hacking the IoT, Bob Brown, Security, 2023, 654-8901234567
+038, Reactive Java Programming, John Doe, Java, 2021, 876-5678901234
+039, Digital Forensics and Cyber Law, Jane Smith, Security, 2023, 987-1234567890
+040, Java Functional Programming, Alice Johnson, Java, 2022, 210-6789012345
+041, Mobile App Security, Bob Brown, Security, 2020, 432-3456789012
+042, Modern Java Development, John Doe, Java, 2023, 543-7890123456
+043, Secure Software Engineering, Jane Smith, Security, 2019, 765-9012345678
+044, Java Robotics, Alice Johnson, Java, 2021, 890-2345678901
+045, Red Teaming Tactics, Bob Brown, Security, 2022, 678-5678901234
+046, High-Performance Java, John Doe, Java, 2020, 321-1234567890
+047, Security Operations and Management, Jane Smith, Security, 2021, 543-3456789012
+048, Blockchain Security, Bob Brown, Security, 2023, 876-9012345678
+049, Java Machine Learning, Alice Johnson, Java, 2019, 234-6789012345
+050, Next-Gen Cyber Threats, Jane Smith, Security, 2023, 987-7890123456
