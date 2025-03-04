@@ -29,7 +29,7 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 
-public class App extends Application {
+public class TestBooks extends Application {
 
     private ArrayList<Book> bookData = new ArrayList<>();
 

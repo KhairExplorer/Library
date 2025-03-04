@@ -5,6 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "TestBooks",
+            "request": "launch",
+            "mainClass": "TestBooks",
+            "projectName": "Project1_f69124f6",
+            "vmArgs": "--module-path \"C:\\Users\\Lenovo\\Desktop\\Java2\\openjfx-21.0.1_windows-x64_bin-sdk\\javafx-sdk-21.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
+
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
@@ -44,7 +53,6 @@
             "mainClass": "App",
             "projectName": "Project1_f69124f6",
             "vmArgs": "--module-path \"C:\\Users\\Lenovo\\Desktop\\Java2\\openjfx-21.0.1_windows-x64_bin-sdk\\javafx-sdk-21.0.1\\lib\" --add-modules javafx.controls,javafx.fxml"
-
         }
     ]
 }
